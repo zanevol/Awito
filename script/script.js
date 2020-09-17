@@ -91,7 +91,7 @@ const renderCard = (DB = dataBase) => {
 					<img class="card__image" src="data:image/jpeg;base64,${elem.image}" alt="test">
 					<div class="card__description">
 						<h3 class="card__header">${elem.nameItem}</h3>
-						<div class="card__price">${elem.costItem} ₽</div>
+						<div class="card__price">Цена: ${elem.costItem} ₽</div>
 					</div>
 				</li>
 		`)
